@@ -16,14 +16,10 @@ const GanttChart = () => {
     const end = new Date(dateEnd?.toString())
 
     // Since we do not have an API, we will filter these results directly on the frontend
-    const filterEvent = (event: GanttEvent) => {
-        console.log(event)
-        return (
-            (!partnerId || event.partner.id === partnerId) &&
-            (!dateStart || event.dateStart >= start) &&
-            (!dateEnd || event.dateEnd <= end)
-        )
-    }
+    const filterEvent = (event: GanttEvent) =>
+        (!partnerId || event.partner.id === partnerId) &&
+        (!dateStart || event.dateStart >= start) &&
+        (!dateEnd || event.dateEnd <= end)
 
     // Mapping the response to support the Gantt API
     // Reference: https://www.npmjs.com/package/gantt-task-react
