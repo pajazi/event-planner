@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Disable tailwind outline on Tremor components */
+.focus\:ring-blue-200:focus {
+    --tw-ring-opacity: 0 !important
+}

@@ -1,8 +1,11 @@
 import 'gantt-task-react/dist/index.css'
 import { Gantt } from 'gantt-task-react'
 import { Box, useTheme } from '@mui/material'
+import { memo } from 'react'
+import PropTypes from 'prop-types'
+import { GanttEvent } from "@/interfaces/GanttEvent";
 
-const StyledGanttChart = (props) => {
+const StyledGanttChart = ({ tasks }) => {
     const theme = useTheme()
 
     return (
@@ -16,15 +19,19 @@ const StyledGanttChart = (props) => {
             }}
         >
             <Gantt
-                {...props}
+                tasks={tasks}
                 fontFamily={'Roboto'}
                 fontSize={'15px'}
                 columnWidth={80}
-                listCellWidth={'300px'}
+                listCellWidth={'285px'}
                 barBackgroundColor={theme.palette.primary.main}
             />
         </Box>
     )
 }
 
-export default StyledGanttChart
+StyledGanttChart.propTypes = {
+    tasks: PropTypes.array<GanttEvent>.isRequired,
+}
+
+export default memo(StyledGanttChart)

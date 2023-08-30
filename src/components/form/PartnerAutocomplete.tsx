@@ -1,14 +1,23 @@
 import { useGetPartnersQuery } from '@/redux/slices/partnerSlice'
 import { Autocomplete, Box, TextField } from '@mui/material'
 import { useRouter } from 'next/router'
+import { useTransition } from 'react'
+import { Partner } from '@/interfaces/Partner'
 
 const PartnerAutocomplete = () => {
     const { query, replace } = useRouter()
+    const [_, startTransition] = useTransition()
     const { data: partners } = useGetPartnersQuery()
 
     const { partnerId } = query
 
-    const getSelectedPartner = () => partners?.find((c) => c.id === partnerId)
+    const getSelectedPartner = (): Partner => partners?.find((c) => c.id === partnerId)
+
+    const onPartnerChange = (partner: Partner) => {
+        startTransition(() => {
+            replace({ query: { ...query, partnerId: partner?.id || '' } })
+        })
+    }
 
     return (
         <Autocomplete
@@ -22,9 +31,7 @@ const PartnerAutocomplete = () => {
                     {partner.firstname} {partner.lastname}
                 </Box>
             )}
-            onChange={(_, partner) =>
-                replace({ query: { ...query, partnerId: partner?.id || '' } })
-            }
+            onChange={(_, partner: Partner) => onPartnerChange(partner)}
             renderInput={(params) => <TextField {...params} label="Select a Partner" />}
         />
     )

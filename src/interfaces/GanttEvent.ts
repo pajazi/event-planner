@@ -8,6 +8,12 @@ export interface GanttEvent {
     dateBuildEnd?: string
     dateStart: string
     dateEnd: string
+    start: Date
+    end: Date
     status: 'Production' | 'Offer' | 'Closed' | 'Cancelled'
+    type: string
+    project: string
+    progress: number
+    isDisabled: boolean
     partner: Partner
 }
