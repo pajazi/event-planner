@@ -22,7 +22,7 @@ yarn dev
 pnpm dev
 ```
 
-Next, run the JSON server:
+Next, in a separate terminal, run the JSON server:
 
 ```bash
 npm run server
