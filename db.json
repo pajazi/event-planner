@@ -7,7 +7,7 @@
       "dateBuildStart": null,
       "dateBuildEnd": "2023-08-21",
       "dateStart": "2023-08-22",
-      "dateEnd": "2023-08-22",
+      "dateEnd": "2023-08-24",
       "status": "Production",
       "partner": {
         "id": "1b010ea4-eb8e-4258-a7ec-38b9e233326f",
@@ -22,7 +22,7 @@
       "dateBuildStart": "2023-06-28",
       "dateBuildEnd": "2023-06-28",
       "dateStart": "2023-06-29",
-      "dateEnd": "2023-06-29",
+      "dateEnd": "2023-06-30",
       "status": "Production",
       "partner": {
         "id": "1b010ea4-eb8e-4258-a7ec-38b9e233326f",
@@ -37,7 +37,7 @@
       "dateBuildStart": "2023-07-31",
       "dateBuildEnd": "2023-07-31",
       "dateStart": "2023-08-01",
-      "dateEnd": "2023-08-01",
+      "dateEnd": "2023-08-06",
       "status": "Production",
       "partner": {
         "id": "06dfac88-6bab-4dcc-8bf8-68bd74e22b74",
@@ -52,7 +52,7 @@
       "dateBuildStart": "2023-12-19",
       "dateBuildEnd": "2023-12-19",
       "dateStart": "2023-12-20",
-      "dateEnd": "2023-12-20",
+      "dateEnd": "2023-12-22",
       "status": "Production",
       "partner": {
         "id": "06dfac88-6bab-4dcc-8bf8-68bd74e22b74",
@@ -66,8 +66,8 @@
       "name": "LP Event 2023",
       "dateBuildStart": "2023-10-18",
       "dateBuildEnd": "2023-10-18",
-      "dateStart": "2023-10-19",
-      "dateEnd": "2023-10-19",
+      "dateStart": "2023-10-16",
+      "dateEnd": "2023-10-21",
       "status": "Production",
       "partner": {
         "id": "1b010ea4-eb8e-4258-a7ec-38b9e233326f",
@@ -82,7 +82,7 @@
       "dateBuildStart": "2023-12-03",
       "dateBuildEnd": "2023-12-03",
       "dateStart": "2023-12-04",
-      "dateEnd": "2023-12-04",
+      "dateEnd": "2023-12-06",
       "status": "Production",
       "partner": {
         "id": "1b010ea4-eb8e-4258-a7ec-38b9e233326f",
@@ -96,8 +96,8 @@
       "name": "YTIA 2023 - 2",
       "dateBuildStart": "2023-10-25",
       "dateBuildEnd": "2023-10-25",
-      "dateStart": "2023-10-26",
-      "dateEnd": "2023-10-26",
+      "dateStart": "2023-10-23",
+      "dateEnd": "2023-10-28",
       "status": "Production",
       "partner": {
         "id": "8fa04172-100d-4fe2-a5c8-bf842cdf38be",
@@ -112,7 +112,7 @@
       "dateBuildStart": "2023-11-05",
       "dateBuildEnd": "2023-11-05",
       "dateStart": "2023-11-06",
-      "dateEnd": "2023-11-06",
+      "dateEnd": "2023-11-16",
       "status": "Production",
       "partner": {
         "id": "8fa04172-100d-4fe2-a5c8-bf842cdf38be",
@@ -127,7 +127,7 @@
       "dateBuildStart": null,
       "dateBuildEnd": null,
       "dateStart": "2023-11-29",
-      "dateEnd": "2023-11-29",
+      "dateEnd": "2023-11-30",
       "status": "Offer",
       "partner": {
         "id": "7d741c57-54f5-49ff-b97e-03cc2cfd9820",
@@ -142,7 +142,7 @@
       "dateBuildStart": "2023-06-07",
       "dateBuildEnd": "2023-06-07",
       "dateStart": "2023-06-08",
-      "dateEnd": "2023-06-08",
+      "dateEnd": "2023-06-19",
       "status": "Closed",
       "partner": {
         "id": "1b010ea4-eb8e-4258-a7ec-38b9e233326f",
@@ -157,7 +157,7 @@
       "dateBuildStart": "2023-07-16",
       "dateBuildEnd": "2023-07-16",
       "dateStart": "2023-07-20",
-      "dateEnd": "2023-07-20",
+      "dateEnd": "2023-07-22",
       "status": "Production",
       "partner": {
         "id": "1b010ea4-eb8e-4258-a7ec-38b9e233326f",
@@ -172,7 +172,7 @@
       "dateBuildStart": "2023-12-19",
       "dateBuildEnd": "2023-12-19",
       "dateStart": "2023-12-20",
-      "dateEnd": "2023-12-20",
+      "dateEnd": "2023-12-22",
       "status": "Production",
       "partner": {
         "id": "06dfac88-6bab-4dcc-8bf8-68bd74e22b74",
@@ -187,7 +187,7 @@
       "dateBuildStart": "2023-06-15",
       "dateBuildEnd": "2023-06-15",
       "dateStart": "2023-06-16",
-      "dateEnd": "2023-06-16",
+      "dateEnd": "2023-06-18",
       "status": "Production",
       "partner": {
         "id": "8fa04172-100d-4fe2-a5c8-bf842cdf38be",
@@ -202,7 +202,7 @@
       "dateBuildStart": "2023-07-12",
       "dateBuildEnd": "2023-07-12",
       "dateStart": "2023-07-21",
-      "dateEnd": "2023-07-21",
+      "dateEnd": "2023-07-24",
       "status": "Production",
       "partner": {
         "id": "1b010ea4-eb8e-4258-a7ec-38b9e233326f",
@@ -216,7 +216,7 @@
       "name": "European Energy Policy Conference",
       "dateBuildStart": "2023-09-06",
       "dateBuildEnd": "2023-09-06",
-      "dateStart": "2023-09-07",
+      "dateStart": "2023-08-07",
       "dateEnd": "2023-09-07",
       "status": "Production",
       "partner": {
@@ -230,8 +230,8 @@
       "jobId": "24004/4",
       "name": "YTIA 2023 - 4",
       "dateBuildStart": "2023-11-08",
-      "dateBuildEnd": "2023-11-08",
-      "dateStart": "2023-11-09",
+      "dateBuildEnd": "2023-11-09",
+      "dateStart": "2023-11-07",
       "dateEnd": "2023-11-09",
       "status": "Production",
       "partner": {
@@ -486,7 +486,7 @@
       "name": "Juice Summit 2023",
       "dateBuildStart": "2023-10-03",
       "dateBuildEnd": "2023-10-03",
-      "dateStart": "2023-10-04",
+      "dateStart": "2023-10-02",
       "dateEnd": "2023-10-04",
       "status": "Production",
       "partner": {
@@ -531,7 +531,7 @@
       "name": "Climate Conference",
       "dateBuildStart": "2023-10-08",
       "dateBuildEnd": "2023-10-08",
-      "dateStart": "2023-10-12",
+      "dateStart": "2023-10-06",
       "dateEnd": "2023-10-12",
       "status": "Production",
       "partner": {
@@ -545,8 +545,8 @@
       "jobId": "24036/2",
       "name": "Portes ouvertes",
       "dateBuildStart": "2023-10-13",
-      "dateBuildEnd": "2023-10-13",
-      "dateStart": "2023-10-14",
+      "dateBuildEnd": "2023-10-14",
+      "dateStart": "2023-10-12",
       "dateEnd": "2023-10-14",
       "status": "Production",
       "partner": {

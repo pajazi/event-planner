@@ -3,6 +3,7 @@ import PartnerAutocomplete from '@/components/form/PartnerAutocomplete'
 import { useRouter } from 'next/router'
 import DateFilter from '@/components/form/DateFilter'
 import Image from 'next/image'
+import StatusAutocomplete from '@/components/form/StatusAutocomplete'
 
 const GanttFilters = () => {
     const { replace } = useRouter()
@@ -17,6 +18,7 @@ const GanttFilters = () => {
                 sx={{ alignSelf: 'flex-start' }}
             />
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 3, ml: 'auto' }}>
+                <StatusAutocomplete />
                 <PartnerAutocomplete />
                 <DateFilter />
                 <Button

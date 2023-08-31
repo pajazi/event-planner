@@ -5,7 +5,7 @@ import { memo } from 'react'
 import PropTypes from 'prop-types'
 import { GanttEvent } from "@/interfaces/GanttEvent";
 
-const StyledGanttChart = ({ tasks }) => {
+const StyledGanttChart = ({ tasks, onEventClick }) => {
     const theme = useTheme()
 
     return (
@@ -25,6 +25,7 @@ const StyledGanttChart = ({ tasks }) => {
                 columnWidth={80}
                 listCellWidth={'285px'}
                 barBackgroundColor={theme.palette.primary.main}
+                onClick={onEventClick}
             />
         </Box>
     )
@@ -32,6 +33,7 @@ const StyledGanttChart = ({ tasks }) => {
 
 StyledGanttChart.propTypes = {
     tasks: PropTypes.array<GanttEvent>.isRequired,
+    onEventClick: PropTypes.func.isRequired
 }
 
 export default memo(StyledGanttChart)

@@ -16,7 +16,7 @@ const NoEventsNote = () => (
             justifyContent: 'center',
         }}
     >
-        <InfoOutlinedIcon /> There are no events for the specified user.
+        <InfoOutlinedIcon /> There are no events for the specified criteria.
     </Box>
 )
 

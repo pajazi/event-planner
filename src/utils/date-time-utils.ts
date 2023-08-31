@@ -9,6 +9,12 @@ export const getStartOfDay = (date: Date): Date => {
     return startOfDay
 }
 
+export const getEndOfDay = (date: Date): Date => {
+    const endOfDay = new Date(date)
+    endOfDay.setHours(23, 59, 59)
+    return endOfDay
+}
+
 export const areDatesEqual = (date1: Date, date2: Date): boolean =>
     date1?.getTime() === date2?.getTime()
 
@@ -23,8 +29,8 @@ export const fromUTCString = (data): Date => {
         date.getUTCFullYear(),
         date.getUTCMonth(),
         date.getUTCDate(),
-        date.getHours(),
-        date.getMinutes(),
-        date.getSeconds(),
+        date.getUTCHours(),
+        date.getUTCMinutes(),
+        date.getUTCSeconds(),
     )
 }

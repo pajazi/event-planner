@@ -6,6 +6,9 @@ const themeConfig = {
             light: '#E64F90',
             main: '#DE0073',
         },
+        blue: {
+            main: '#42a5f5',
+        },
     },
     typography: {
         fontFamily: [
